@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="untitled:test" external.linked.project.path="$MODULE_DIR$/../../untitled" external.root.project.path="$MODULE_DIR$/../../untitled" external.system.id="GRADLE" external.system.module.group="org.example" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="function:test" external.linked.project.path="$MODULE_DIR$/../../function" external.root.project.path="$MODULE_DIR$/../../function" external.system.id="GRADLE" external.system.module.group="org.study" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet external-system-id="GRADLE" type="kotlin-language" name="Kotlin">
-      <configuration version="5" platform="JVM 21" allPlatforms="JVM [21]" useProjectSettings="false" pureKotlinSourceFolders="C:\Users\mimim\OneDrive\문서\GitHub\kotlin-basic\untitled\src\test\kotlin;C:\Users\mimim\OneDrive\문서\GitHub\kotlin-basic\untitled\src\main\kotlin">
-        <additionalVisibleModuleNames>untitled:main</additionalVisibleModuleNames>
+      <configuration version="5" platform="JVM 21" allPlatforms="JVM [21]" useProjectSettings="false" pureKotlinSourceFolders="C:\Users\mimim\OneDrive\문서\GitHub\kotlin-basic\function\src\main\kotlin;C:\Users\mimim\OneDrive\문서\GitHub\kotlin-basic\function\src\test\kotlin">
+        <additionalVisibleModuleNames>function:main</additionalVisibleModuleNames>
         <compilerSettings />
         <compilerArguments>
           <flagArguments>
@@ -12,9 +12,9 @@
             <flagArg name="noStdlib" arg="true" />
           </flagArguments>
           <stringArguments>
-            <stringArg name="destination" arg="$MODULE_DIR$/../../untitled/build/classes/kotlin/test" />
+            <stringArg name="destination" arg="$MODULE_DIR$/../../function/build/classes/kotlin/test" />
             <stringArg name="jvmTarget" arg="21" />
-            <stringArg name="moduleName" arg="untitled_test" />
+            <stringArg name="moduleName" arg="function_test" />
             <stringArg name="apiVersion" arg="2.1" />
             <stringArg name="languageVersion" arg="2.1" />
           </stringArguments>
@@ -35,15 +35,15 @@
     </facet>
   </component>
   <component name="NewModuleRootManager">
-    <output-test url="file://$MODULE_DIR$/../../basic/build/classes/java/test" />
+    <output-test url="file://$MODULE_DIR$/../../function/build/classes/java/test" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../../basic/src/test">
-      <sourceFolder url="file://$MODULE_DIR$/../../basic/src/test/kotlin" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../basic/src/test/resources" type="java-test-resource" />
+    <content url="file://$MODULE_DIR$/../../function/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../function/src/test/kotlin" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../function/src/test/resources" type="java-test-resource" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="untitled.main" />
+    <orderEntry type="module" module-name="function.main" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:2.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit5:2.1.0" level="project" />
@@ -56,5 +56,5 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.10.1" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.junit.platform:junit-platform-engine:1.10.1" level="project" />
   </component>
-  <component name="TestModuleProperties" production-module="untitled.main" />
+  <component name="TestModuleProperties" production-module="function.main" />
 </module>

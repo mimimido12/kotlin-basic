@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/function.iml" filepath="$PROJECT_DIR$/function.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/function.main.iml" filepath="$PROJECT_DIR$/.idea/modules/function.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/function.test.iml" filepath="$PROJECT_DIR$/.idea/modules/function.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/kotlin-basic.iml" filepath="$PROJECT_DIR$/.idea/kotlin-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled.iml" filepath="$PROJECT_DIR$/untitled.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/untitled.main.iml" filepath="$PROJECT_DIR$/.idea/modules/untitled.main.iml" />
