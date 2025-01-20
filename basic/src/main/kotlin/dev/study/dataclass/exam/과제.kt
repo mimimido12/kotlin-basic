@@ -6,3 +6,7 @@ package dev.study.dataclass.exam
  *  - companion object를 사용해서 샘플 데이터를 반환하는 정적 메서드를 작성하세요
  *  - 샘플 데이터를 출력해주세요
  */
+
+fun main(){
+
+}
