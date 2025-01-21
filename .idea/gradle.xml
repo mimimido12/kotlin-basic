@@ -13,11 +13,11 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/untitled" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/basic" />
         <option name="gradleHome" value="" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/untitled" />
+            <option value="$PROJECT_DIR$/basic" />
           </set>
         </option>
       </GradleProjectSettings>
