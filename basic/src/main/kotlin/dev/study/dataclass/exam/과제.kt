@@ -6,12 +6,34 @@ package dev.study.dataclass.exam
  *  - companion object를 사용해서 샘플 데이터를 반환하는 정적 메서드를 작성하세요
  *  - 샘플 데이터를 출력해주세요
  */
-class Prouct{
+//data class Prouct(
+//    val name: String,
+//    val price: Double,
+//    ){
+//    companion object{
+//        fun sample() = listOf(
+//            Prouct("John Smith", 42.0),
+//            Prouct("Smith", 42.0),
+//        )
+//    }
+//}
+
+data class Product(
+    val name: String,
+    val price: Double,
+)
+
+class productFactory{
     companion object{
-        fun data(name:String, price:Int):String = "이름: $name 가격: $price"
+        fun createdSampleProducts(): List<Product>{
+            return listOf(
+                Product("John Smith", 42.0),
+                Product("Smith", 42.0),
+            )
+        }
     }
 }
-
 fun main(){
-    println(Prouct.data("아이폰",3000000))
+//    val createSampleModel =ProductFactory.createdSampleProducts()
+//    createdSampleProducts.forEach
 }

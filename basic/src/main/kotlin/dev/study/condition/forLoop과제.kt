@@ -25,7 +25,7 @@ fun caculateSumOfEven(n: Int): Int {
     }
     return sum
 }
-
+//fun List<Int>.fiteria(): List<Int> = this.filter { it > 0 }
 // start, end, step 세 개의 정수를 받아, start부터 end까지 step씩 감소하는 모습을 보여주는 문자열을 반환하는 함수
 fun countDownByStep(
     start: Int,

@@ -12,13 +12,13 @@ import java.io.InputStreamReader
  */
 fun main(){
     var isbool = true
-
+    // https://coding-ga-ding.tistory.com/226 (코틀린 값 입력 참조)
     val br = BufferedReader(InputStreamReader(System.`in`))
 
     fun calculate(a: Int, b: Int, operation: (Int, Int) -> Int): Int {
         return operation(a, b)
     }
-    // https://coding-ga-ding.tistory.com/226 (코틀린 값 입력 참조)
+
      while(isbool){
          println("1.더하기 2.빼기 3.곱하기 4.나누기 5.프로그램 종료")
          val choice = br.readLine().toInt()
