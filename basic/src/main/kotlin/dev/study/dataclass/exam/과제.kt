@@ -6,7 +6,12 @@ package dev.study.dataclass.exam
  *  - companion object를 사용해서 샘플 데이터를 반환하는 정적 메서드를 작성하세요
  *  - 샘플 데이터를 출력해주세요
  */
+class Prouct{
+    companion object{
+        fun data(name:String, price:Int):String = "이름: $name 가격: $price"
+    }
+}
 
 fun main(){
-
+    println(Prouct.data("아이폰",3000000))
 }
