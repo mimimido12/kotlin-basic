@@ -38,7 +38,7 @@ fun downloadAsync(urls: List<String>){
 }
 
 suspend fun downloadImageAsync(url: String): String {
-    delay(3000) 
+    delay(3000)
     return "이미지 데이터: $url"
 }
 
@@ -53,7 +53,7 @@ suspend fun downloadWithCoroutines(urls: List<String>) = coroutineScope {
             val image = downloadImageAsync(url)
             saveToDiskAsync(image)
         }
-    }.joinAll() // 모든 작업이 끝날 때까지 대기
+    }.joinAll() 
 }
 
 
