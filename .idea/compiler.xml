@@ -8,6 +8,9 @@
       <module name="function" target="21" />
       <module name="function.main" target="21" />
       <module name="function.test" target="21" />
+      <module name="kotlin-coroutine" target="21" />
+      <module name="kotlin-coroutine.main" target="21" />
+      <module name="kotlin-coroutine.test" target="21" />
       <module name="untitled" target="21" />
     </bytecodeTargetLevel>
   </component>
